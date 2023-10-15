@@ -1,23 +1,28 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
+import './App.css'; // Import your CSS file
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
+        <div className="logo">
+        <img src={`${process.env.PUBLIC_URL}/assets/lologs.png`} alt="Company Logo" />
+
+
+          <h1>MINDSIGHT</h1>
+        </div>
+        <p>Click the button below to download the APK file.</p>
         <a
           className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
+          href="/MindSight.apk"
+          download="MindSight.apk"
         >
-          Learn React
+          Download APK
         </a>
       </header>
+      <footer className="App-footer">
+        <p>&copy; {new Date().getFullYear()} MindSight</p>
+      </footer>
     </div>
   );
 }
