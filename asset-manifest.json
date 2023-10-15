@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/MindSight/static/css/main.bfd8f31e.css",
+    "main.js": "/MindSight/static/js/main.c4c42a89.js",
+    "static/js/787.005f7062.chunk.js": "/MindSight/static/js/787.005f7062.chunk.js",
+    "index.html": "/MindSight/index.html",
+    "main.bfd8f31e.css.map": "/MindSight/static/css/main.bfd8f31e.css.map",
+    "main.c4c42a89.js.map": "/MindSight/static/js/main.c4c42a89.js.map",
+    "787.005f7062.chunk.js.map": "/MindSight/static/js/787.005f7062.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.bfd8f31e.css",
+    "static/js/main.c4c42a89.js"
+  ]
+}
